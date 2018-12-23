@@ -1,0 +1,13 @@
+# EJS
+
+* If you want to open a file with res.render(). First you need to creat a new directory called "views",
+you need to call it that way because express is goind to look for it.
+
+* We have three types of <%=  %> Add something to the HTML5
+                         <%  %> Pure logic like an if statement
+                         <%- %> 
+                         
+* The public folder can be called however you want but "public" is really commonly used.
+In order to be able to use it, you need to tell express to use it like you did in app.js.
+
+* Partials are templates so you do not need to copy code.

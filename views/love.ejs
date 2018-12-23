@@ -1,0 +1,13 @@
+<% include partials/header%>
+<h1>You fell in love with: <%= animal.toUpperCase()%> </h1>
+
+<% if (animal.toLowerCase() === "dog"){%>
+    <p>Me too !</p>
+    <% }else {%>
+        <p>That's cool as well !</p>
+    <% }%>
+
+
+<p>This comes from the views/love.ejs page</p>
+
+<% include partials/footer%>
